@@ -52,11 +52,17 @@
                         <h2 class="card-title">Rectangle</h2>
                         <p>Area (A) = w X I</p>
                         <div class="">
-                            <input id="rectangle-base" class="w-24 text-2xl p-1 rounded-sm" type="text" placeholder="W">
+                            <input id="rectangle-width" class="w-24 text-2xl p-1 rounded-sm" type="text"
+                                placeholder="W">
                             <span class="m-4 ml-2">cm</span>
-                            <input id="rectangle-height" class="w-24 text-2xl p-1 rounded-sm" type="text"
+                            <input id="rectangle-length" class="w-24 text-2xl p-1 rounded-sm" type="text"
                                 placeholder="I">
                             <span>cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl"> Area: <span id="rectangle-area"></span>
+                                <span>cm <sup>2</sup></sup></span>
+                            </p>
                         </div>
                         <div class="card-actions justify-end">
                             <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>

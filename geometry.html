@@ -33,21 +33,33 @@
                                 placeholder="h">
                             <span>cm</span>
                         </div>
+                        <div>
+                            <p class="text-2xl"> Area: <span id="triangle-area"></span>
+                                <span>cm <sup>2</sup></sup></span>
+                            </p>
+                        </div>
                         <div class="card-actions justify-end">
                             <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
-                <!-- Triangle card -->
+                <!-- Rectangle card -->
                 <div class="card bg-base-100 w-96 shadow-xl">
                     <figure>
-                        <img src="/images/" alt="Shoes" />
+                        <img src="/images/rectangle.png" alt="Shoes" />
                     </figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 class="card-title">Rectangle</h2>
+                        <p>Area (A) = w X I</p>
+                        <div class="">
+                            <input id="rectangle-base" class="w-24 text-2xl p-1 rounded-sm" type="text" placeholder="W">
+                            <span class="m-4 ml-2">cm</span>
+                            <input id="rectangle-height" class="w-24 text-2xl p-1 rounded-sm" type="text"
+                                placeholder="I">
+                            <span>cm</span>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +73,7 @@
                         <h2 class="card-title">Shoes!</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -88,7 +100,8 @@
 
     </main>
 
-    <script src="/script.js"></script>
+    <script src="/script/triangle.js"></script>
+    <script src="/script/rectangle.js"></script>
 </body>
 
 </html>

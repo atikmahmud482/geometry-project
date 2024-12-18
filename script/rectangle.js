@@ -1,0 +1,3 @@
+function calculateRectangleArea() {
+    console.log('...')
+}
